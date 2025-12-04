@@ -110,7 +110,9 @@ Netflix_SQL_Project
     └── netflix_analysis_summary.pdf
 
 Learning Outcomes
+
 Gained hands-on experience in:
+
 Writing SQL queries for real-world business problems
 Performing data cleaning, aggregation, and joins
 Using GROUP BY, CASE, DATE functions, and subqueries
