@@ -2,11 +2,13 @@ SQL Analysis of Content Performance and Viewer Trends
 
 Project Overview:
 This project simulates a Netflix-style streaming data environment and performs SQL-based analysis to understand what kind of content drives the highest engagement, viewership, and completion rates.
+
 Goal:
 Analyze viewing patterns, genres, ratings, and audience behavior to extract meaningful business insights that support decision-making for a streaming platform.
 
 Dataset:
 Source: Kaggle – Netflix Movies and TV Shows Dataset
+
 The dataset includes:
 Show ID, Title, Type (Movie/TV Show)
 Director, Cast, Country
@@ -27,23 +29,37 @@ Database Name: netflix_project
 Business Problems Solved (15 Key SQL Queries)
 #	Business Question
 1	Which type of content (Movies or TV Shows) dominates the platform?
+
 2	Which genres have the most titles?
+
 3	Which countries produce the most content?
+
 4	Which ratings are most common?
+
 5	Which directors have created the most content?
+
 6	How many titles were released each year?
+
 7	Which genres are watched most by users?
+
 8	Which titles have the highest average watch duration?
+
 9	What percentage of content is completed by users?
+
 10	Do users watch more on weekends or weekdays?
+
 11	Which countries have the most active viewers?
+
 12	Which plan type watches more on average?
+
 13	Which users are inactive (haven’t watched anything)?
+
 14	What is the average gap between release and watch date?
+
 15	Which genres are growing or declining year over year?
 
-Key Insights
 
+Key Insights:
 Movies dominate with ~70% share; TV Shows form ~30%.
 
 Dramas, Comedies, and Documentaries are top-performing genres.
@@ -61,7 +77,8 @@ Evenings and weekends are peak viewing times.
 Drama and Crime genres are trending upward in recent years.
 
 
-Tools & Technologies
+
+Tools & Technologies:
 
 Tool	Purpose
 MySQL   Workbench	Database creation, SQL analysis
@@ -69,7 +86,8 @@ Excel	Visualization, results export, report creation
 Kaggle	Dataset source
 GitHub	Project hosting and version control
 
-Folder Structure
+
+Folder Structure:
 
 Netflix_SQL_Project
 │
