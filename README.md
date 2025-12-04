@@ -2,29 +2,22 @@ SQL Analysis of Content Performance and Viewer Trends
 
 Project Overview:
 This project simulates a Netflix-style streaming data environment and performs SQL-based analysis to understand what kind of content drives the highest engagement, viewership, and completion rates.
-
 Goal:
 Analyze viewing patterns, genres, ratings, and audience behavior to extract meaningful business insights that support decision-making for a streaming platform.
 
 Dataset:
 Source: Kaggle – Netflix Movies and TV Shows Dataset
-
 The dataset includes:
-
 Show ID, Title, Type (Movie/TV Show)
-
 Director, Cast, Country
-
 Date Added, Release Year, Rating, Duration, Genre, Description
 
 Additional simulated tables were created for:
-
 Users → viewer profiles (country, plan type, device, signup date)
-
 Watch Events → viewing activity (duration, completion status, watch date, etc.)
 
 Database Design
-Table	Description
+Table	Description:
 netflix_titles	Contains metadata about movies and TV shows
 users	Holds simulated user account information
 watch_events	Tracks what each user watched, duration, and completion rate
@@ -67,10 +60,11 @@ Evenings and weekends are peak viewing times.
 
 Drama and Crime genres are trending upward in recent years.
 
+
 Tools & Technologies
 
 Tool	Purpose
-MySQL Workbench	Database creation, SQL analysis
+MySQL   Workbench	Database creation, SQL analysis
 Excel	Visualization, results export, report creation
 Kaggle	Dataset source
 GitHub	Project hosting and version control
@@ -99,15 +93,10 @@ Netflix_SQL_Project
 
 Learning Outcomes
 Gained hands-on experience in:
-
 Writing SQL queries for real-world business problems
-
 Performing data cleaning, aggregation, and joins
-
 Using GROUP BY, CASE, DATE functions, and subqueries
-
 Exporting data for visualization and reporting
-
 Documenting a full data analysis project workflow
 
 Conclusion
